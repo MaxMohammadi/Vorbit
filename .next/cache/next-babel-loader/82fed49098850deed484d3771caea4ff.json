@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var EARTH_RADIUS_KM = 6371;\nexport var EARTH_RADIUS_M = EARTH_RADIUS_KM * 1000;\nexport var EARTH_MASS_KG = 5.98e24;\nexport var G = 6.673e-11; //N•m2/kg2.\n\nexport var DEFAULT_COVERAGE_RESOLUTION = 2; // h3 resolution\nexport var DEFAULT_COVERAGE_ELEVATION = 40; // degrees from horizon","map":null,"metadata":{},"sourceType":"module"}

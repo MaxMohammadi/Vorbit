@@ -1,0 +1,1 @@
+{"ast":null,"code":"import axios from \"axios\";\nexport default (async (req, res) => {\n  const response = await axios.get(\"https://celestrak.com/NORAD/elements/starlink.txt\");\n  res.statusCode = 200;\n  res.send(response.data);\n});","map":null,"metadata":{},"sourceType":"module"}
